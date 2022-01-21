@@ -1,0 +1,61 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  /* background-color: navy; */
+  min-height: 90vh;
+}
+
+.container {
+  background-color: black;
+  width: 400px;
+  /* margin: auto; */
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+#display-area {
+  height: 150px;
+  width: 100%;
+  color: white;
+  text-align: right;
+}
+
+.current-input {
+  height: 50%;
+  font-size: 1.5em;
+}
+
+.answer {
+  height: 50%;
+  font-size: 3em;
+}
+
+.keypad {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 20px;
+  justify-content: space-evenly;
+  padding: 20px 0;
+}
+
+.keypad button{
+  font-size: 1.5em;
+  background-color: transparent;
+  border: none;
+}
+
+.num-btn {
+  color: white;
+}
+
+.fun-btn {
+  color: orange;
+}

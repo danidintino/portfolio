@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js" defer></script>
+    <!-- defer = telling the browser to first parse all the files and then start executing scripts -->
+  </head>
+  <body>
+    <div class="container">
+      <section id="display-area">
+        <div class="current-input"></div>
+        <div class="answer">0</div>
+      </section>
+      <section class="keypad">
+        <button type="button" class="fun-btn" id="clear" value="">C</button>
+        <button type="button" class="fun-btn" id="erase" value="">&#8592;</button>
+        <button type="button" class="fun-btn" value="/">/</button>
+        <button type="button" class="fun-btn" value="%">%</button>
+        <button type="button" class="num-btn" value="7">7</button>
+        <button type="button" class="num-btn" value="8">8</button>
+        <button type="button" class="num-btn" value="9">9</button>
+        <button type="button" class="fun-btn" value="*">x</button>
+        <button type="button" class="num-btn" value="4">4</button>
+        <button type="button" class="num-btn" value="5">5</button>
+        <button type="button" class="num-btn" value="6">6</button>
+        <button type="button" class="fun-btn" value="-">-</button>
+        <button type="button" class="num-btn" value="1">1</button>
+        <button type="button" class="num-btn" value="2">2</button>
+        <button type="button" class="num-btn" value="3">3</button>
+        <button type="button" class="fun-btn" value="+">+</button>
+        <button type="button" class="num-btn" value="0">0</button>
+        <button type="button" class="num-btn" value=".">.</button>
+        <button type="button" class="num-btn" value="00">00</button>
+        <button type="button" class="fun-btn" id="evaluate" value="">=</button>
+      </section>
+    </div>
+  </body>
+</html>
