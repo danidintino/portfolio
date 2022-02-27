@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<div class="container">
+  <form id="info-form" name="info-form" onsubmit="return(validate());">
+    <label>First Name:</label>
+    <input type="text" id="fname" name="fname"></input><br>
+    <label>Last Name:</label>
+    <input type="text" id="lname" name="lname"></input><br>
+    <label>Email:</label>
+    <input type="text" id="email" name="email"></input><br>
+    <label>Favorite Animal:</label>
+    <div>
+      <input type="radio" id="cat" value="cat" name="animal"></input>
+      <label for="cat">Cat</label>
+      <input type="radio" id="dog" value="dog" name="animal"></input>
+      <label for="dog">Dog</label>
+      <input type="radio" id="hippo" value="hippo" name="animal"></input>
+      <label for="hippo">Hippo</label>
+    </div><br>
+    <label>Language:</label>
+    <div>
+      <input type="checkbox" id="english" value="english" name="language"></input>
+      <label for="english">English</label>
+      <input type="checkbox" id="Spanish" value="Spanish" name="language"></input>
+      <label for="Spanish">Spanish</label>
+      <input type="checkbox" id="French" value="French" name="language"></input>
+      <label for="French">French</label>
+    </div><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
