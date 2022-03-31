@@ -1,5 +1,5 @@
 import React from 'react';
-import './article.css';
+import './article.scss';
 
 const Article = ({ imgUrl, date, title }) => {
   return (

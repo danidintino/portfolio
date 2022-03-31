@@ -13,23 +13,19 @@
   flex-direction: column;
   text-align: left;
   margin-right: 5rem;
-}
-
-.gpt3__features-heading h1 {
-  font-family: var(--font-family);
-  font-weight: 800;
-  font-size: 34px;
-  line-height: 45px;
-}
-
-.gpt3__features-heading p {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 30px;
-  color: #FF8A71;
-  margin-top: 2rem;
-  cursor: pointer;
+  h1 {
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 45px;
+  }
+  p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FF8A71;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
 }
 
 .gpt3__features-container {
@@ -50,7 +46,7 @@
 }
 
 @media screen and (max-width: 550px) {
-  .gpt3__features-heading h1{
+  .gpt3__features-heading h1 {
     font-size: 28px;
     line-height: 38px;
   }

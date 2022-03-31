@@ -1,5 +1,5 @@
 import React from 'react';
-import './possibility.css';
+import './possibility.scss';
 import possibilityImage from "../../assets/possibility.png";
 
 const Possibility = () => {
